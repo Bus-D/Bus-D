@@ -4,6 +4,7 @@
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2.5rem;
   padding: 3rem 5%;
+  text-align: center;
 }
 
 .portfolio-item {
@@ -16,6 +17,10 @@
 
 .portfolio-item:hover {
   transform: translateY(-6px);
+}
+
+.portfolio-item a {
+  text-decoration: none;;
 }
 
 .portfolio-item img {

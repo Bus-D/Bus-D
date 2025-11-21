@@ -9,9 +9,8 @@ export function loadHeader() {
     </a>
     <nav>
       <a href="index.html">Home</a>
-      <a href="contact.html">Contact/About</a>
-      <a href="faq.html">FAQ</a>
-      <a href="contact.html" class="order-button">Get in Contact</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="order-button">Get a Quote</a>
     </nav>
   `;
 
