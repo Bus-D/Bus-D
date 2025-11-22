@@ -49,6 +49,8 @@
   <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
 
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/contact.css">
   <script type="module" src="script/main.js" defer></script>
   <script src="script/form.js" defer></script>
 </head>
@@ -104,6 +106,17 @@
       Email
       <input type="email" name="email" required>
     </label>
+
+    <label for="design-type" required>What type of design are you looking for?</label>
+    <select id="design-type" name="design-type">
+      <option value="" selected disabled>Select a design type...</option>
+      <option value="branding">Branding (logo, identity, style guides)</option>
+      <option value="website-ui">Website UI Design</option>
+      <option value="app-ui">App UI Design</option>
+      <option value="ux">UX Improvements (usability testing, accessibility, UX overhaul)</option>
+      <option value="design">Design System Creation</option>
+      <option value="marketing">Marketing/Miscellanious Graphics</option>
+    </select>
 
     <label>
       Message
