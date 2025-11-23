@@ -5,13 +5,13 @@
 export function loadHeader() {
   document.querySelector("header").innerHTML = `
     <a href="index.html" class="logo-link">
-      <img src="images/logo/Bus-DLogo.png" alt="Bus-D Designs Logo" class="logo" />
+      <img src="../images/logo/Bus-DLogo.png" alt="Bus-D Designs Logo" class="logo" />
     </a>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="contact.html">Contact</a>
-      <a href="packages.html">Services</a>
-      <a href="contact.html" class="order-button">Get a Quote</a>
+      <a href="../../index.html">Home</a>
+      <a href="../../contact.html">Contact</a>
+      <a href="../../packages.html">Services</a>
+      <a href="../../contact.html" class="order-button">Get a Quote</a>
     </nav>
   `;
 
@@ -30,16 +30,20 @@ export function loadFooter() {
   document.querySelector("footer").innerHTML = `
     <p>Bus-D Designs &copy;</p>
     <div class="social-links">
-      <p>Social Links</p>
+      <p><strong>Social Links</strong></p>
       <a href="https://www.instagram.com/busd_designs?igsh=ZjA0YThzdXZ1Znlv&utm_source=qr">
-        <img src="images/images/instagram.jpg" alt="Instagram" />
+        <img src="../images/images/instagram.jpg" alt="Instagram" />
       </a>
       <a href="https://www.facebook.com/profile.php?id=61558731148652">
-        <img src="images/images/facebook.png" alt="Facebook" />
+        <img src="../images/images/facebook.png" alt="Facebook" />
       </a>
     </div>
     <div class="legal">
-      <a href="legal/privacy.html">Privacy</a>
+    <p><strong>Legal</strong></p>
+      <a href="../legal/privacy.html">Privacy</a>
     </div>
   `;
 }
+
+loadHeader();
+loadFooter();

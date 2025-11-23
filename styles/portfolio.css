@@ -1,10 +1,10 @@
-/* ---------- Portfolio Grid ---------- */
+/* ---------- Home Portfolio Grid ---------- */
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2.5rem;
   padding: 3rem 5%;
-  text-align: center;
 }
 
 .portfolio-item {
@@ -33,4 +33,34 @@
   font-family: var(--heading-font);
   font-size: 1.4rem;
   color: var(--primary-color);
+}
+
+/* ---------- Case Study Flow ---------- */
+.portfolio-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 0 auto;
+}
+.portfolio-hero img {
+  height: 50%;
+  width: 50%;
+}
+
+.portfolio-flow {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.design-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.design-imgs img {
+  width: 150px;
+  height:fit-content;
+  justify-self: center;
 }

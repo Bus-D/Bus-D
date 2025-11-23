@@ -1,19 +1,19 @@
 [
   {
     "title": "KalorieTrack",
-    "image": "images/portfolio/KalorieTrack.png",
+    "image": "images/portfolio/kalorietrack/KalorieTrack.png",
     "description": "A mobile app designed to make tracking nutrition easy and attainable.",
     "link": "projects/kalorietrack.html"
   },
   {
     "title": "Chase Redesign",
-    "image": "images/portfolio/ChaseRedesign-Desktop.jpg",
+    "image": "images/portfolio/chase/ChaseRedesign-Desktop.jpg",
     "description": "A thought experiement on what it would look like if Chase decided to buy Wise and enter the international money sphere.",
     "link": "projects/chase.html"
   },
   {
     "title": "Onboarding Design",
-    "image": "images/portfolio/Onboarding-Cover.png",
+    "image": "images/portfolio/smallerProjects/Onboarding-Cover.png",
     "description": "A design experiment to make an onboarding process for a hot chocolate company",
     "link": "projects/onboardingExperiment.html"
   }

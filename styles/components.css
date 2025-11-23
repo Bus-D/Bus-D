@@ -16,6 +16,10 @@
   color: var(--muted-text);
 }
 
+.hero a {
+  text-decoration: none;;
+}
+
 /* ---------- Cards / Blocks ---------- */
 .home-grid {
   display: grid;
