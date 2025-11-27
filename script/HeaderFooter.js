@@ -4,15 +4,24 @@
 
 export function loadHeader() {
   document.querySelector("header").innerHTML = `
+  <div class="header-top">
     <a href="index.html" class="logo-link">
       <img src="images/logo/Bus-DLogo.png" alt="Bus-D Designs Logo" class="logo" />
     </a>
-    <nav>
+    <div class="menu-btn">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+  </div>
+    
+    <nav class="nav-links">
       <a href="index.html">Home</a>
       <a href="contact.html">Contact</a>
       <a href="packages.html">Services</a>
       <a href="contact.html" class="order-button">Get a Quote</a>
     </nav>
+    
   `;
 
   // Highlight active page
